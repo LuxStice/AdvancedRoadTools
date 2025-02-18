@@ -1,7 +1,7 @@
 ﻿{
-  "AdvancedRoadTools.Zone_Controller.ToolName": "Zone Controller Tool",
-  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Zoning Side",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone only on the both side.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone only on the left side.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone only on the right side."
+  "AdvancedRoadTools.Zone_Controller.ToolName": "Controle de areamento",
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Lado a ser areado",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone on both sides.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Colocar área apenas no lado esquerdo.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Colocar área apenas no lado direito."
 }
