@@ -1,6 +1,4 @@
 ﻿{
-  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Zoning Side",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone on both sides.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone only on the left side.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone only on the right side."
+  "Assets.NAME[Zone Controller Tool]": "Zone Controller",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Tool to control how the zoning of a road behaves.\nChoose between zoning on both sides, only on the left or right, or no zoning for that road.\nBy default right-click inverts the zoning configuration."
 }
