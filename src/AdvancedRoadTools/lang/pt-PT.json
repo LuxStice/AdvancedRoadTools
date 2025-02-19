@@ -1,16 +1,16 @@
 ﻿{
-  "AdvancedRoadTools.Zone_Controller.ToolName": "Controle de areamento",
+  "AdvancedRoadTools.Zone_Controller.ToolName": "Ferramenta de controlo de areamento",
   "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Lado a ser areado",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Colocar área em ambos os lados.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Colocar área apenas no lado esquerdo.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Colocar área apenas no lado direito.",
-  "SubServices.NAME[Zone Controller Tool]": "Zone Controller Tool",
-  "Assets.SUB_SERVICE_DESCRIPTION[Zone Controller Tool]": "Tool to control how the zoning of a road behaves.\nChoose between zoning on both sides, only on the left or right, or no zoning for that road.\nBy default right-click inverts the zoning configuration.",
+  "SubServices.NAME[Zone Controller Tool]": "Ferramenta de controlo de areamento",
+  "Assets.SUB_SERVICE_DESCRIPTION[Zone Controller Tool]": "Ferramenta para controlar como o areamento de uma estrada se comporta.\nEscolha entre areamento em ambos os lados, apenas à esquerda ou à direita, ou sem areamento para essa estrada.\nPor padrão, clique direito inverte a configuração do areamento.",
   "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "Main",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Zone Controller Tool",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Prevent zoned cells from being removed",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Prevent zoned cells from being overriden during preview and set phase of Zone Controller Tool.\nSet this to true if you're having problem with losing your zoning configuration when using the tool.\nDefault: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Prevent occupied cells from being removed",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Prevent occupied cells from being overriden during preview and set phase of Zone Controller Tool.\nSet this to true if you're having problem with buildings becoming vacant and/or abandoned when using the tool.\nDefault: true"
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "Principal",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Opções de Ferramenta de Controle Zona",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Prevenir que células areadas sejam removidas.",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Previne que células já areadas sejam alteradas durante a fase de pré-visualização e aplicação da ferramenta de controlo de areamento.\nMarque esta opção se estiver a perder areamentos já configurados ao usar a ferramenta de controlo de areamento.\nPadrão: Marcado",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Prevenir que células ocupadas sejam removidas.",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Previne que áreas que já tenham construções sejam alteradas durante a fase de pré-visualização e aplicação da ferramenta de controlo de areamento.\nMarque esta opção se estiver a perder construções, ou as mesmas estarem a ser abandonadas, ao usar a ferramenta de controlo de areamento.\nPadrão: Marcado"
 }
