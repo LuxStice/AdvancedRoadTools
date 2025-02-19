@@ -1,7 +1,7 @@
 ﻿{
-  "AdvancedRoadTools.Zone_Controller.ToolName": "Zone Controller Tool",
-  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Zoning Side",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone on both sides.",
+  "AdvancedRoadTools.Zone_Controller.ToolName": "Narzędzie Kontroli Stref",
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Strefy",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Strefy po obu stronach.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Strefy tylko po lewej stronie.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone only on the right side."
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Strefy tylko po prawej stronie."
 }
