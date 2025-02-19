@@ -1,4 +1,4 @@
 ﻿{
-  "Assets.NAME[Zone Controller Tool]": "Zone Controller",
-  "Assets.DESCRIPTION[Zone Controller Tool]": "Tool to control how the zoning of a road behaves.\nChoose between zoning on both sides, only on the left or right, or no zoning for that road.\nBy default right-click inverts the zoning configuration."
+  "Assets.NAME[Zone Controller Tool]": "Controlador de Zonas",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Ferramenta que possibilita como o zoneamento da estrada se comporta.\nEscolha entre permitir zonear ambos os lados, apenas o lado esquerdo ou direito, ou não permitir zonear nenhum lado.\nPor norma, o botão direito do mouse inverte a configuração de zoneamento."
 }
