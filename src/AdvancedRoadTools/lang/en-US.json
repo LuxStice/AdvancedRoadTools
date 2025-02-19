@@ -5,12 +5,12 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone only on the left side.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone only on the right side.",
   "SubServices.NAME[Zone Controller Tool]": "Zone Controller Tool",
-  "Assets.SUB_SERVICE_DESCRIPTION[Zone Controller Tool]": "Tool to control how the zoning of a road behaves.\nChoose between zoning on both sides, only on the left or right, or no zoning for that road.\nBy default right-click inverts the zoning configuration.",
+  "Assets.SUB_SERVICE_DESCRIPTION[Zone Controller Tool]": "Tool to control how the zoning of a road behaves.\nChoose between zoning on both sides, only on the left or right, or no zoning for that road.\nBy default, right-click inverts the zoning configuration.",
   "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod]": "Advanced Road Tools",
   "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "Main",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Zone Controller Tool",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Zone Controller Tool Options",
   "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Prevent zoned cells from being removed",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Prevent zoned cells from being overriden during preview and set phase of Zone Controller Tool.\nSet this to true if you're having problem with losing your zoning configuration when using the tool.\nDefault: true",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Prevent zoned cells from being overridden during preview and set phase of Zone Controller Tool.\nSet this to true if you're having problem with losing your zoning configuration when using the tool.\nDefault: true",
   "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Prevent occupied cells from being removed",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Prevent occupied cells from being overriden during preview and set phase of Zone Controller Tool.\nSet this to true if you're having problem with buildings becoming vacant and/or abandoned when using the tool.\nDefault: true"
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Prevent occupied cells from being overridden during preview and set phase of Zone Controller Tool.\nSet this to true if you're having problem with buildings becoming vacant and/or abandoned when using the tool.\nDefault: true"
 }
