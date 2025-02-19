@@ -1,7 +1,7 @@
 ﻿{
   "AdvancedRoadTools.Zone_Controller.ToolName": "Ferramenta de controle de zona",
   "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Lado zoneado",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone on both sides.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zonear ambos os lados.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zonear apenas o lado esquerdo.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zonear apenas o lado direito."
 }
