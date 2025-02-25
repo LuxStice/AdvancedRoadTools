@@ -1,0 +1,17 @@
+﻿{
+  "Assets.NAME[Zone Controller Tool]": "Zoneregelaar",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Tool om het gedrag van zoning aan de weg te regelen.\nKies tussen zoning aan beide kanten, alleen aan de linker- of rechterkant, of geen zoning aan de weg. \nDe zoning kan standaard omgekeerd worden met de rechtermuisknop.",
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Zoningkant",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone aan beide kanten.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone alleen links.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone alleen rechts.",
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "Algemeen",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Zoneregelaarsopties",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Voorkomen dat zone-cellen worden verwijderd",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Voorkom dat zone-cellen tijdens de previewfase worden overschreven en stelt de fase van de zoneregelaar in.\nSelecteer dit als je problemen ondervindt met het verliezen van de zoneconfiguratie bij het gebruik van de tool.\nStandaard: aan",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Voorkomen dat bezette cellen worden verwijderd",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Voorkom dat bezette cellen tijdens de previewfase worden overschreven en stelt de fase van de zoneregelaar in.\nSelecteer dit als je problemen ondervindt met gebouwen die leeg komen te staan bij het gebruik van de tool.\nStandaard: aan",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.InvertZoning]": "Muisknop Voor Zoning Omkeren",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.InvertZoning]": "Draait de huidige zoningconfiguratie om met een muisknop."
+}
