@@ -3,82 +3,36 @@
     <PropertyGroup>
         <OutputType>Library</OutputType>
         <TargetFramework>net472</TargetFramework>
-        <Configurations>Debug;Release;Build locale keys</Configurations>
+        <Configurations>Debug;Release</Configurations>
 
         <!--The file where mod information which is required for publishing mod on PDX mods are stored-->
         <PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
-        <RootNamespace>AdvancedRoadTools</RootNamespace>
-        <AssemblyName>AdvancedRoadTools</AssemblyName>
-        <LangVersion>default</LangVersion>
-        <Company>LuxStice Modding</Company>
-        <Product>AdvancedRoadTools</Product>
-        <IsPackable>false</IsPackable>
-        <PackageId>AdvancedRoadTools</PackageId>
-        <Authors>AdvancedRoadTools</Authors>
-        <AssemblyVersion>1.0</AssemblyVersion>
-        <Platforms>AnyCPU</Platforms>
+
+        <CustomManagedPath>D:\Games\Cities - Skylines II\Cities2_Data\Managed</CustomManagedPath>
     </PropertyGroup>
 
     <!--Imports must be after PropertyGroup block-->
     <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props"/>
     <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.targets"/>
-    
+
     <Target Name="BuildUI" AfterTargets="AfterBuild">
         <Exec Command="npm run build" WorkingDirectory="$(ProjectDir)/UI"/>
     </Target>
-    
-    <ItemGroup Label="Required assemblies">
-        <Reference Include="Colossal.PSI.Common">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Game">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.Core">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.Logging">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.Mathematics">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.IO.AssetDatabase">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.UI">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.UI.Binding">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Colossal.Localization">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Newtonsoft.Json">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Unity.InputSystem">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="UnityEngine.AudioModule">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="UnityEngine.CoreModule">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Unity.Burst">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Unity.Collections">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Unity.Entities">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Unity.Mathematics">
-            <Private>false</Private>
-        </Reference>
+
+    <ItemGroup>
+        <Reference Include="$(CustomManagedPath)\Colossal.*.dll" Private="False"/>
+        <Reference Include="$(CustomManagedPath)\Game*.dll" Private="False"/>
+        <Reference Include="$(CustomManagedPath)\Unity*.dll" Private="False"/>
+        <Reference Include="$(CustomManagedPath)\cohtml.Net.dll" Private="False"/>
+        <Reference Include="$(CustomManagedPath)\PDX.*.dll" Private="False"/>
+        <Reference Include="$(CustomManagedPath)\Newtonsoft.Json.dll" Private="False"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Lib.Harmony" Version="2.2.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
         <Reference Update="System">
             <Private>false</Private>
         </Reference>
@@ -88,7 +42,6 @@
         <Reference Update="System.Data">
             <Private>false</Private>
         </Reference>
-        <PackageReference Include="Lib.Harmony" Version="2.2.2"/>
     </ItemGroup>
 
     <ItemGroup>
@@ -101,5 +54,6 @@
         <Content Include="lang\**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+        <Folder Include="src\" />
     </ItemGroup>
 </Project>

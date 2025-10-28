@@ -1,9 +1,10 @@
 ﻿using Unity.Entities;
 using Unity.Mathematics;
 
-namespace AdvancedRoadTools;
-
-public struct TempZoning : IComponentData
+namespace AdvancedRoadTools
 {
-    public int2 Depths;
+    public struct TempZoning : IComponentData
+    {
+        public int2 Depths;
+    }
 }

@@ -27,7 +27,7 @@ type PropsSection = {
     children: string | JSX.Element | JSX.Element[]
 }
 
-type PropsDescriptionTooltip = 
+type PropsDescriptionTooltip =
 {
     title: string | null
     description: string | null
@@ -58,14 +58,14 @@ const registryIndex = {
     FOCUS_DISABLED: ["game-ui/common/focus/focus-key.ts", "FOCUS_DISABLED"],
     FOCUS_AUTO: ["game-ui/common/focus/focus-key.ts", "FOCUS_AUTO"],
     useUniqueFocusKey: ["game-ui/common/focus/focus-key.ts", "useUniqueFocusKey"],
-    assetGridTheme: ["game-ui/game/components/asset-menu/asset-grid/asset-grid.module.scss", "classes"],  
+    assetGridTheme: ["game-ui/game/components/asset-menu/asset-grid/asset-grid.module.scss", "classes"],
     descriptionTooltipTheme: ["game-ui/common/tooltip/description-tooltip/description-tooltip.module.scss", "classes"],
     ColorField: ["game-ui/common/input/color-picker/color-field/color-field.tsx", 'ColorField'],
 }
 
 export class VanillaComponentResolver {
-    // As far as I know you should not need to edit this portion here. 
-    // This was written by Klyte for his mod's UI but I didn't have to make any edits to it at all. 
+    // As far as I know you should not need to edit this portion here.
+    // This was written by Klyte for his mod's UI but I didn't have to make any edits to it at all.
     public static get instance(): VanillaComponentResolver { return this._instance!! }
     private static _instance?: VanillaComponentResolver
 

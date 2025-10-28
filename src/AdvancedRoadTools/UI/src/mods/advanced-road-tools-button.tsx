@@ -4,7 +4,7 @@ import {useLocalization} from "cs2/l10n";
 import {trigger} from "cs2/api";
 import mod from "../../mod.json";
 import zoneIcon from "../../images/Zone Controller Tool.svg";
-import buttonIcon from "../../images/Tool Icon/ToolsIcon.png";
+import buttonIcon from "../../images/ToolIcon/ToolsIcon.png";
 import {VanillaComponentResolver} from "../YenYang/VanillaComponentResolver";
 
 function ToggleZoneControllerTool()

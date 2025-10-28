@@ -1,8 +1,9 @@
 ﻿using Game.Prefabs;
 
-namespace AdvancedRoadTools.Tools;
-
-public interface IARTTool
+namespace AdvancedRoadTools.Tools
 {
-    public void SetPrefab(PrefabBase prefab);
+    public interface IARTTool
+    {
+        public void SetPrefab(PrefabBase prefab);
+    }
 }
