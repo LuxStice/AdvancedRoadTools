@@ -1,9 +1,6 @@
 ﻿{
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod]": "高级道路工具",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "主要",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "功能区控制器选项",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "防止已划分的功能区被删除",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "防止在功能区控制器工具的预览和设置阶段覆盖原有的功能区。\n如果您在使用该工具时遇到丢失功能区配置的问题，请将其设置为 true。\n默认值：true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "防止已建设的功能区被删除",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "防止在功能区控制器工具的预览和设置阶段覆盖已建设的功能区。\n如果您在使用该工具时遇到建筑物空置或废弃的问题，请将其设置为 true。\n默认值：true"
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "功能区位置",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "在两侧都划分功能区。",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "仅在左侧划分功能区。",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "仅在右侧划分功能区。"
 }
