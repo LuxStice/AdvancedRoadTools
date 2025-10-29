@@ -1,6 +1,4 @@
 ﻿{
-  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "功能区位置",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "在两侧都划分功能区。",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "仅在左侧划分功能区。",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "仅在右侧划分功能区。"
+  "Assets.NAME[Zone Controller Tool]": "功能区控制器",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "控制道路两旁功能区的工具。\n选择在道路两侧都划分功能区、仅在左侧或右侧划分功能区、或者不划分功能区。\n默认情况下，单击鼠标右键能反转功能区配置。"
 }
