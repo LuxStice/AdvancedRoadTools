@@ -1,0 +1,17 @@
+{
+  "Assets.NAME[Zone Controller Tool]": "Контроллер зон",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Инструмент для управления поведением зонирования дороги.\nВыберите между зонированием с обеих сторон, только с левой или правой стороны, или без зонирования для этой дороги.\nПо умолчанию правая кнопка мыши инвертирует конфигурацию зонирования.",
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Сторона зонирования",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Зонирование с обеих сторон.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Зонирование только с левой стороны.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Зонирование только с правой стороны.",
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Расширенные инструменты для дорог",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Основное",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Настройки инструмента контроллера зон",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Предотвратить удаление зонированных ячеек",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Предотвращает замену зонированных ячеек во время предварительного просмотра и установки инструмента контроллера зон.\nУстановите это значение в true, если у вас возникают проблемы с потерей конфигурации зонирования при использовании инструмента.\nПо умолчанию: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Предотвратить удаление занятых ячеек",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Предотвращает замену занятых ячеек во время предварительного просмотра и установки инструмента контроллера зон.\nУстановите это значение в true, если у вас возникают проблемы с тем, что здания становятся пустыми и/или заброшенными при использовании инструмента.\nПо умолчанию: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Инвертировать зонирование кнопкой мыши",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Инвертирует текущую конфигурацию зонирования с помощью действия мыши."
+}
