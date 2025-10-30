@@ -1,9 +1,6 @@
 ﻿{
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "Principal",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Opções do controlador de zoneamento",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Impedir que células com zona sejam removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Impedir que células com zona sejam substituídas durante as fases de pré-visualização e aplicação da Ferramenta Controlador de Zonas.\nDefine isto como true se estás a ter problemas com a perda da tua configuração de zonas ao usar a ferramenta.\nPredefinição: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Impedir que células ocupadas sejam removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Impedir que células ocupadas sejam substituídas durante as fases de pré-visualização e aplicação da Ferramenta Controlador de Zonas.\nDefine isto como true se estás a ter problemas com edifícios a ficarem vagos e/ou abandonados ao usar a ferramenta.\nPredefinição: true"
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Lado do zoneamento",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Definir zonas em ambos os lados.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Definir zonas apenas no lado esquerdo.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Definir zonas apenas no lado direito."
 }
