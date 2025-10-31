@@ -1,9 +1,6 @@
 ﻿{
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Main]": "Principal",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Zone Controller Tool]": "Opciones de herramienta del controlador de zonificación",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Evitar que las celdas zonificadas sean removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Previene que las celdas ya zonificadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de pérdida de zonificación al usar la herramienta.\nPor defecto: Verdadero",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Evitar que las celdas ocupadas sean removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Core.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Previene que las celdas ya ocupadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de edificios condenados y/o abandonados al utilizar la herramienta.\nPor defecto: Verdadero"
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Lado de zonificación",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zonificar ambos lados.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zonificar solo lado izquierdo.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zonificar solo lado derecho."
 }
