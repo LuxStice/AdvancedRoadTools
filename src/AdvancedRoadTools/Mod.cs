@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using AdvancedRoadTools.Tools;
 using Colossal.IO.AssetDatabase;
 using Colossal.Logging;
@@ -15,7 +16,7 @@ using UnityEngine;
 
 namespace AdvancedRoadTools
 {
-    public class AdvancedRoadToolsMod : IMod
+    public class Mod : IMod
     {
         public static ILog log = LogManager.GetLogger($"{nameof(AdvancedRoadTools)}")
             .SetShowsErrorsInUI(false);
@@ -24,11 +25,24 @@ namespace AdvancedRoadTools
 
         public static Setting Setting;
         public const string kInvertZoningActionName = "InvertZoning";
+        public const string Name = "Advanced Road Tools";
         public static ProxyAction InvertZoningAction;
-        
+        public static string Version => Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
+
+        public static string AssemblyDirectory
+        {
+            get
+            {
+                string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+                UriBuilder uri = new UriBuilder(codeBase);
+                string path = Uri.UnescapeDataString(uri.Path);
+                return Path.GetDirectoryName(path);
+            }
+        }
+
         public void OnLoad(UpdateSystem updateSystem)
         {
-            AdvancedRoadToolsMod.log.Debug($"{nameof(AdvancedRoadToolsMod)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
+            log.Debug($"{nameof(Mod)}.{MethodBase.GetCurrentMethod()?.Name}");
 
             RegisterPrefab();
 
@@ -36,7 +50,6 @@ namespace AdvancedRoadTools
             {
                 throw new NullReferenceException($"The mod executable could not be found");
             }
-            ModDirectory = Path.GetDirectoryName(asset.path);
             
             Setting = new Setting(this);
             Setting.RegisterInOptionsUI();
@@ -63,13 +76,15 @@ namespace AdvancedRoadTools
 
         private void AddSources()
         {
-            AdvancedRoadToolsMod.log.Info($"Loading locales");
+            log.Info($"Loading locales");
+
+
             
-            var langPath = Path.Combine(ModDirectory, "lang");
+            var langPath = Path.Combine(AssemblyDirectory, "lang");
 
             if (!Directory.Exists(langPath))
             {
-                AdvancedRoadToolsMod.log.Error($"lang folder not found under mod's directory.");
+                log.Error($"lang folder not found under mod's directory.");
                 return;
             }
 
@@ -82,9 +97,9 @@ namespace AdvancedRoadTools
                 locale.Entries = dict;
 
                 GameManager.instance.localizationManager.AddSource(localeID, locale);
-                AdvancedRoadToolsMod.log.Info($"\tLoaded locale {localeID}.json");
+                log.Info($"\tLoaded locale {localeID}.json");
             }
-            AdvancedRoadToolsMod.log.Info($"Finished loading locales");
+            log.Info($"Finished loading locales");
         }
 
         private void CreateTools(Purpose purpose, GameMode mode)
@@ -107,7 +122,7 @@ namespace AdvancedRoadTools
 
         public void OnDispose()
         {
-            AdvancedRoadToolsMod.log.Debug($"{nameof(AdvancedRoadToolsMod)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
+            log.Debug($"{nameof(Mod)}.{MethodBase.GetCurrentMethod()?.Name}");
             if (Setting != null)
             {
                 Setting.UnregisterInOptionsUI();
