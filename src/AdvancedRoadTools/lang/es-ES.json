@@ -1,6 +1,4 @@
 ﻿{
-  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Lado de zonificación",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zonificar ambos lados.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zonificar solo lado izquierdo.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zonificar solo lado derecho."
+  "Assets.NAME[Zone Controller Tool]": "Zone Controller",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Herramienta para controlar como se comporta la zonificación del camino.\nElige entre zonificar ambos lados, solo a la izquierda o derecha o no zonificar el camino.\nPor defecto el clic derecho invierte la configuración de zonificación."
 }
