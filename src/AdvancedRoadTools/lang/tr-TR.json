@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "İki tarafta da bölgelenme.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Yalnızca sol tarafta bölgelenme.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Yalnızca sağ tarafta bölgelenme.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Ana Kategori",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Bölge Kontrol Aracı Seçenekleri",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Bölge hücrelerinin silinmesini engelle",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Bölge hücrelerinin ön izleme sırasında geçersiz kılınmasını engelleyin ve Bölge Kontrol Aracının aşamasını ayarlayın\nEğer aracı kullanırken bölge ayarlamanızı kaybetme sorunu yaşıyorsanız bunu true olarak ayarlayın.\nVarsayılan: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Dolu hücrelerin silinmesini engelle",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Bölge hücrelerinin ön izleme sırasında geçersiz kılınmasını engelleyin ve Bölge Kontrol Aracının aşamasını ayarlayın\nEğer aracı kullanırken bölge ayarlamanızı kaybetme sorunu yaşıyorsanız bunu true olarak ayarlayın.\nVarsayılan: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Bölgelendirmeyi Ters Çevirme Fare Tuşu",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Fare eylemiyle mevcut bölgelendirme ayarını tersine çevirir."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "Ana Kategori",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Bölge Kontrol Aracı Seçenekleri",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Bölge hücrelerinin silinmesini engelle",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Bölge hücrelerinin ön izleme sırasında geçersiz kılınmasını engelleyin ve Bölge Kontrol Aracının aşamasını ayarlayın\nEğer aracı kullanırken bölge ayarlamanızı kaybetme sorunu yaşıyorsanız bunu true olarak ayarlayın.\nVarsayılan: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Dolu hücrelerin silinmesini engelle",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Bölge hücrelerinin ön izleme sırasında geçersiz kılınmasını engelleyin ve Bölge Kontrol Aracının aşamasını ayarlayın\nEğer aracı kullanırken bölge ayarlamanızı kaybetme sorunu yaşıyorsanız bunu true olarak ayarlayın.\nVarsayılan: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Bölgelendirmeyi Ters Çevirme Fare Tuşu",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Fare eylemiyle mevcut bölgelendirme ayarını tersine çevirir."
 }

@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "在两侧都划分功能区。",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "仅在左侧划分功能区。",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "仅在右侧划分功能区。",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "高级道路工具",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "主要",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "功能区控制器选项",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "防止已划分的功能区被删除",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "防止在功能区控制器工具的预览和设置阶段覆盖原有的功能区。\n如果您在使用该工具时遇到丢失功能区配置的问题，请将其设置为 true。\n默认值：true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "防止已建设的功能区被删除",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "防止在功能区控制器工具的预览和设置阶段覆盖已建设的功能区。\n如果您在使用该工具时遇到建筑物空置或废弃的问题，请将其设置为 true。\n默认值：true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "反转功能区配置的鼠标按键",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "通过鼠标操作反转当前功能区配置。"
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "高级道路工具",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "主要",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "功能区控制器选项",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "防止已划分的功能区被删除",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "防止在功能区控制器工具的预览和设置阶段覆盖原有的功能区。\n如果您在使用该工具时遇到丢失功能区配置的问题，请将其设置为 true。\n默认值：true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "防止已建设的功能区被删除",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "防止在功能区控制器工具的预览和设置阶段覆盖已建设的功能区。\n如果您在使用该工具时遇到建筑物空置或废弃的问题，请将其设置为 true。\n默认值：true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "反转功能区配置的鼠标按键",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "通过鼠标操作反转当前功能区配置。"
 }

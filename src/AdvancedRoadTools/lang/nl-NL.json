@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone aan beide kanten.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone alleen links.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone alleen rechts.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Algemeen",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Zoneregelaarsopties",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Voorkomen dat zone-cellen worden verwijderd",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Voorkom dat zone-cellen tijdens de previewfase worden overschreven en stelt de fase van de zoneregelaar in.\nSelecteer dit als je problemen ondervindt met het verliezen van de zoneconfiguratie bij het gebruik van de tool.\nStandaard: aan",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Voorkomen dat bezette cellen worden verwijderd",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Voorkom dat bezette cellen tijdens de previewfase worden overschreven en stelt de fase van de zoneregelaar in.\nSelecteer dit als je problemen ondervindt met gebouwen die leeg komen te staan bij het gebruik van de tool.\nStandaard: aan",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Muisknop Voor Zoning Omkeren",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Draait de huidige zoningconfiguratie om met een muisknop."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "Algemeen",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Zoneregelaarsopties",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Voorkomen dat zone-cellen worden verwijderd",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Voorkom dat zone-cellen tijdens de previewfase worden overschreven en stelt de fase van de zoneregelaar in.\nSelecteer dit als je problemen ondervindt met het verliezen van de zoneconfiguratie bij het gebruik van de tool.\nStandaard: aan",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Voorkomen dat bezette cellen worden verwijderd",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Voorkom dat bezette cellen tijdens de previewfase worden overschreven en stelt de fase van de zoneregelaar in.\nSelecteer dit als je problemen ondervindt met gebouwen die leeg komen te staan bij het gebruik van de tool.\nStandaard: aan",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Muisknop Voor Zoning Omkeren",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Draait de huidige zoningconfiguratie om met een muisknop."
 }

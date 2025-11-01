@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zonificar ambos lados.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zonificar solo lado izquierdo.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zonificar solo lado derecho.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Principal",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Opciones de herramienta del controlador de zonificación",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Evitar que las celdas zonificadas sean removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Previene que las celdas ya zonificadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de pérdida de zonificación al usar la herramienta.\nPor defecto: Verdadero",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Evitar que las celdas zonificadas sean removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Previene que las celdas ya zonificadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de edificios condenados y/o abandonados al utilizar la herramienta.\nPor defecto: Verdadero",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Invertir botón del ratón de zonificación",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Invierte la configuración actual de zonificación con una acción del ratón."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "Principal",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Opciones de herramienta del controlador de zonificación",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Evitar que las celdas zonificadas sean removidas",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Previene que las celdas ya zonificadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de pérdida de zonificación al usar la herramienta.\nPor defecto: Verdadero",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Evitar que las celdas zonificadas sean removidas",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Previene que las celdas ya zonificadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de edificios condenados y/o abandonados al utilizar la herramienta.\nPor defecto: Verdadero",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Invertir botón del ratón de zonificación",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Invierte la configuración actual de zonificación con una acción del ratón."
 }

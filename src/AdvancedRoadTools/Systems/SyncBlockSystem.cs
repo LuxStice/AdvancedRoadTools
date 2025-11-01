@@ -90,9 +90,9 @@ namespace AdvancedRoadTools
                 else
                     return;
 
-                if (AdvancedRoadToolsMod.Setting.RemoveOccupiedCells && IsAnyCellOccupied(CellLookup[blockEntity], block, validArea))
+                if (Mod.Setting.RemoveOccupiedCells && IsAnyCellOccupied(CellLookup[blockEntity], block, validArea))
                     return;
-                if (AdvancedRoadToolsMod.Setting.RemoveZonedCells && IsAnyCellZoned(CellLookup[blockEntity], block, validArea))
+                if (Mod.Setting.RemoveZonedCells && IsAnyCellZoned(CellLookup[blockEntity], block, validArea))
                     return;
 
                 block.m_Size.y = depth;

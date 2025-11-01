@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Strefy po obu stronach.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Strefy tylko po lewej stronie.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Strefy tylko po prawej stronie.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Główne",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Opcje Narzędzia Kontroli Stref",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Zapobiegaj usuwaniu już wyznaczonych stref",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Zapobiega nadpisywaniu już wyznaczonych stref podczas przymierzania i ustawiania stref narzędziem. Włącz, jeżeli masz problem ze znikającą konfiguracją stref podczas korzystania z tego narzędzia. Domyślnie: włączone",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Zapobiegaj usuwaniu już zajętych stref",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Zapobiega nadpisywaniu już zajmowanych stref podczas przymierzania i ustawiania stref narzędziem. Włącz, jeżeli masz problem z budynkami, które zostają opuszczone i/lub porzucone podczas korzystania z tego narzędzia. Domyślnie: włączone",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Odwróć bieżącą konfigurację narzędzia",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Odwraca bieżącą konfigurację narzędzia."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "Główne",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Opcje Narzędzia Kontroli Stref",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Zapobiegaj usuwaniu już wyznaczonych stref",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Zapobiega nadpisywaniu już wyznaczonych stref podczas przymierzania i ustawiania stref narzędziem. Włącz, jeżeli masz problem ze znikającą konfiguracją stref podczas korzystania z tego narzędzia. Domyślnie: włączone",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Zapobiegaj usuwaniu już zajętych stref",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Zapobiega nadpisywaniu już zajmowanych stref podczas przymierzania i ustawiania stref narzędziem. Włącz, jeżeli masz problem z budynkami, które zostają opuszczone i/lub porzucone podczas korzystania z tego narzędzia. Domyślnie: włączone",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Odwróć bieżącą konfigurację narzędzia",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Odwraca bieżącą konfigurację narzędzia."
 }

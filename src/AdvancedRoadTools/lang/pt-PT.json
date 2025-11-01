@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zonar em ambos os lados.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zonar apenas no lado esquerdo.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zonar apenas no lado direito.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Advanced Road Tools",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Principal",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Opções do Controlador de Zoneamento",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Impedir que as células zonadas sejam removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Impedir que as células zonadas sejam substituídas durante a pré-visualização e fase de definição da ferramenta Controlador de Zoneamento.\nAtiva isto se estiveres a ter problemas com a perda da tua configuração de zoneamento ao usar a ferramenta.\nPredefinição: ativado",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Impedir que as células ocupadas sejam removidas",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Impedir que as células ocupadas sejam substituídas durante a pré-visualização e fase de definição da ferramenta Controlador de Zoneamento.\nAtiva isto se estiveres a ter problemas com edifícios a ficarem vazios e/ou abandonados ao usar a ferramenta.\nPredefinição: ativado",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Botão do rato para inverter zoneamento",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Inverte a configuração atual de zoneamento com uma ação do rato."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "Principal",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Opções do Controlador de Zoneamento",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Impedir que as células zonadas sejam removidas",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Impedir que as células zonadas sejam substituídas durante a pré-visualização e fase de definição da ferramenta Controlador de Zoneamento.\nAtiva isto se estiveres a ter problemas com a perda da tua configuração de zoneamento ao usar a ferramenta.\nPredefinição: ativado",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Impedir que as células ocupadas sejam removidas",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Impedir que as células ocupadas sejam substituídas durante a pré-visualização e fase de definição da ferramenta Controlador de Zoneamento.\nAtiva isto se estiveres a ter problemas com edifícios a ficarem vazios e/ou abandonados ao usar a ferramenta.\nPredefinição: ativado",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Botão do rato para inverter zoneamento",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Inverte a configuração atual de zoneamento com uma ação do rato."
 }

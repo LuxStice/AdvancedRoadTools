@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zona su entrambi i lati.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zona solo sul lato sinistro.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zona solo sul lato destro.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Strumenti Stradali Avanzati",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Principale",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Opzioni Strumento Controllore Zona",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Impedisci la rimozione delle celle in zona",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Impedire che le celle zonate vengano sovrascritte durante l'anteprima e impostare la fase dello strumento Controller di zona.\nImpostare questo a true se hai problemi a perdere la configurazione di zonizzazione quando si utilizza lo strumento.\nPredefinito: vero",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Impedisci la rimozione delle celle in zona",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Impedire che le celle zonate vengano sovrascritte durante l'anteprima e impostare la fase dello strumento Controller di zona.\nImpostare questo a true se hai problemi a perdere la configurazione di zonizzazione quando si utilizza lo strumento.\nPredefinito: vero",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Inverti Pulsante Del Mouse Zoning",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Inverte la configurazione di zonizzazione corrente con un'azione del mouse."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Strumenti Stradali Avanzati",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "Principale",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Opzioni Strumento Controllore Zona",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Impedisci la rimozione delle celle in zona",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Impedire che le celle zonate vengano sovrascritte durante l'anteprima e impostare la fase dello strumento Controller di zona.\nImpostare questo a true se hai problemi a perdere la configurazione di zonizzazione quando si utilizza lo strumento.\nPredefinito: vero",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Impedisci la rimozione delle celle in zona",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Impedire che le celle zonate vengano sovrascritte durante l'anteprima e impostare la fase dello strumento Controller di zona.\nImpostare questo a true se hai problemi a perdere la configurazione di zonizzazione quando si utilizza lo strumento.\nPredefinito: vero",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Inverti Pulsante Del Mouse Zoning",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Inverte la configurazione di zonizzazione corrente con un'azione del mouse."
 }

@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zonen auf beiden Seiten.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone nur auf der linken Seite.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone nur auf der rechten Seite.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Erweiterte Strassenwerkzeuge",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Startseite",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Zone Controller-Optionen",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Verhindern Sie das Entfernen von Zellen",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Verhindert das Überschreiben von Zonen-Zellen während der Vorschau- und Einstellungsphase des Zone Controller-Tools.\nSetzen Sie dies auf true wenn Sie Probleme mit dem Verlust Ihrer Zonenkonfiguration bei der Verwendung des Werkzeugs haben.\nStandard: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Verhindert das Entfernen bebauter Zellen",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Verhindert, dass bebaute Zellen während der Vorschau- und Einstellungsphase des Zone Controller Tools überschrieben werden.\nSetzen Sie dies auf \"true\" wenn Sie Probleme mit dem Leeren und/oder Verlassen von Gebäuden haben.\nStandard: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Zoning-Button umkehren",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Kehrt die aktuelle Zonenkonfiguration mit einer Mausaktion um."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Erweiterte Strassenwerkzeuge",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.MainTab]": "Startseite",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "Zone Controller-Optionen",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Verhindern Sie das Entfernen von Zellen",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Verhindert das Überschreiben von Zonen-Zellen während der Vorschau- und Einstellungsphase des Zone Controller-Tools.\nSetzen Sie dies auf true wenn Sie Probleme mit dem Verlust Ihrer Zonenkonfiguration bei der Verwendung des Werkzeugs haben.\nStandard: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Verhindert das Entfernen bebauter Zellen",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Verhindert, dass bebaute Zellen während der Vorschau- und Einstellungsphase des Zone Controller Tools überschrieben werden.\nSetzen Sie dies auf \"true\" wenn Sie Probleme mit dem Leeren und/oder Verlassen von Gebäuden haben.\nStandard: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Zoning-Button umkehren",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "Kehrt die aktuelle Zonenkonfiguration mit einer Mausaktion um."
 }

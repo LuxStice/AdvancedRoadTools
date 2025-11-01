@@ -25,8 +25,8 @@
         <AssemblyVersion>1.0.5</AssemblyVersion>
     </PropertyGroup>
 
-    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <DocumentationFile>bin\Release\AdvancedRoadTools.xml</DocumentationFile>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DefineConstants>TRACE;EXPORT_LOCALIZATION</DefineConstants>
     </PropertyGroup>
 
     <!--Imports must be after PropertyGroup block-->

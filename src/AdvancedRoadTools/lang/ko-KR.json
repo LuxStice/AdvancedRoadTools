@@ -5,13 +5,13 @@
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "양쪽 구역.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "왼쪽 구역.",
   "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "오른쪽 구역.",
-  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "고급 도로 도구",
-  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "메인",
-  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "구역 컨트롤러 도구 옵션",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "구역화된 셀이 제거되는 것을 방지",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "구역 컨트롤러 도구의 미리보기 및 설정 단계에서 구역 셀이 재정의되는 것을 방지합니다.\n도구를 사용할 때 구역 구성을 잃는 문제가 있는 경우 이를 true로 설정합니다.\n기본값: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "점유된 셀이 제거되는 것을 방지",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "구역 컨트롤러 도구의 미리보기 및 설정 단계에서 점유된 셀이 재정의되는 것을 방지합니다.\n도구를 사용할 때 건물이 비어 있거나 버려진 경우 문제가 있는 경우 이 값을 true로 설정합니다.\n기본값: true",
-  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "구역 반전 마우스 버튼",
-  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "마우스 조작으로 현재 구역 구성을 반전 합니다."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "고급 도로 도구",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.Main]": "메인",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.Zone Controller Tool]": "구역 컨트롤러 도구 옵션",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "구역화된 셀이 제거되는 것을 방지",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "구역 컨트롤러 도구의 미리보기 및 설정 단계에서 구역 셀이 재정의되는 것을 방지합니다.\n도구를 사용할 때 구역 구성을 잃는 문제가 있는 경우 이를 true로 설정합니다.\n기본값: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "점유된 셀이 제거되는 것을 방지",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "구역 컨트롤러 도구의 미리보기 및 설정 단계에서 점유된 셀이 재정의되는 것을 방지합니다.\n도구를 사용할 때 건물이 비어 있거나 버려진 경우 문제가 있는 경우 이 값을 true로 설정합니다.\n기본값: true",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "구역 반전 마우스 버튼",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoning]": "마우스 조작으로 현재 구역 구성을 반전 합니다."
 }
