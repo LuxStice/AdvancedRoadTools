@@ -36,11 +36,11 @@ namespace AdvancedRoadTools.Tools
         {
             if (HasTool(toolDefinition))
             {
-                AdvancedRoadToolsMod.log.Error($"Tool \"{toolDefinition.ToolID}\" already registered");
+                Mod.log.Error($"Tool \"{toolDefinition.ToolID}\" already registered");
                 return;
             }
 
-            AdvancedRoadToolsMod.log.Info($"Registering tool \"{toolDefinition.ToolID}\" with system \"{toolDefinition.Type.Name}\"");
+            Mod.log.Info($"Registering tool \"{toolDefinition.ToolID}\" with system \"{toolDefinition.Type.Name}\"");
             ToolDefinitions.Add(toolDefinition);
         }
 
@@ -48,7 +48,7 @@ namespace AdvancedRoadTools.Tools
         {
             if (Initialized && !force)
             {
-                AdvancedRoadToolsMod.log.Info($"Trying to initialize ToolsHelper but it is already running.");
+                Mod.log.Info($"Trying to initialize ToolsHelper but it is already running.");
                 return;
             }
 
@@ -61,7 +61,7 @@ namespace AdvancedRoadTools.Tools
         {
             if (Initialized) return;
 
-            AdvancedRoadToolsMod.log.Info($"Creating tools UI. {ToolDefinitions.Count} registered tools");
+            Mod.log.Info($"Creating tools UI. {ToolDefinitions.Count} registered tools");
 
             world = Traverse.Create(GameManager.instance).Field<World>("m_World").Value;
             prefabSystem = world.GetExistingSystemManaged<PrefabSystem>();
@@ -69,14 +69,14 @@ namespace AdvancedRoadTools.Tools
             originalPrefab = prefabs.FirstOrDefault(p => p.name == "Wide Sidewalk");
             if (originalPrefab is null)
             {
-                AdvancedRoadToolsMod.log.Error($"Could not find Wide Sidewalk Prefab");
+                Mod.log.Error($"Could not find Wide Sidewalk Prefab");
                 return;
             }
 
             originalUiObject = originalPrefab?.GetComponent<UIObject>();
             if (originalUiObject is null)
             {
-                AdvancedRoadToolsMod.log.Error($"Could not find Wide Sidewalk UI Object");
+                Mod.log.Error($"Could not find Wide Sidewalk UI Object");
                 return;
             }
 
@@ -111,22 +111,22 @@ namespace AdvancedRoadTools.Tools
 
                     if (!tool.TrySetPrefab(toolPrefab))
                     {
-                        AdvancedRoadToolsMod.log.Error($"Failed to set up tool prefab for type \"{definition.Type}\"");
+                        Mod.log.Error($"Failed to set up tool prefab for type \"{definition.Type}\"");
                         continue;
                     }
 
                     if (!prefabSystem.AddPrefab(toolPrefab))
                     {
-                        AdvancedRoadToolsMod.log.Error($"Tool \"{definition.ToolID}\" could not be added to \"{nameof(PrefabSystem)}\"");
+                        Mod.log.Error($"Tool \"{definition.ToolID}\" could not be added to \"{nameof(PrefabSystem)}\"");
                         continue;
                     }
 
                     toolsLookup.Add(definition, new Tuple<PrefabBase, UIObject>(toolPrefab, uiObject));
-                    AdvancedRoadToolsMod.log.Info($"\tTool \"{definition.ToolID}\" was successfully created");
+                    Mod.log.Info($"\tTool \"{definition.ToolID}\" was successfully created");
                 }
                 catch (Exception e)
                 {
-                    AdvancedRoadToolsMod.log.Error($"\tTool \"{definition.ToolID}\" could not be created: {e}");
+                    Mod.log.Error($"\tTool \"{definition.ToolID}\" could not be created: {e}");
                 }
 
                 GameManager.instance.onGameLoadingComplete += SetupUpTools;
@@ -135,7 +135,7 @@ namespace AdvancedRoadTools.Tools
 
         private static void SetupUpTools(Purpose purpose, GameMode mode)
         {
-            AdvancedRoadToolsMod.log.Info($"Setting up tools. {toolsLookup.Count} registered tools");
+            Mod.log.Info($"Setting up tools. {toolsLookup.Count} registered tools");
         
             foreach (var kvp in toolsLookup)
             {
@@ -156,7 +156,7 @@ namespace AdvancedRoadTools.Tools
                 }
                 catch (Exception e)
                 {
-                    AdvancedRoadToolsMod.log.Error($"\tCould not setup tool {toolDefinition.ToolID}: {e}");
+                    Mod.log.Error($"\tCould not setup tool {toolDefinition.ToolID}: {e}");
                 }
             }
         }

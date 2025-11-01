@@ -41,13 +41,13 @@ namespace AdvancedRoadTools.Tools
         [BurstCompile]
         protected override void OnCreate()
         {
-            AdvancedRoadToolsMod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
+            Mod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
             base.OnCreate();
             toolOutputBarrier = World.GetOrCreateSystemManaged<ToolOutputBarrier>();
             zoningControllerToolUISystem = World.GetOrCreateSystemManaged<ZoningControllerToolUISystem>();
             toolHighlightSystem = World.GetOrCreateSystemManaged<ToolHighlightSystem>();
 
-            invertZoningAction = AdvancedRoadToolsMod.InvertZoningAction;
+            invertZoningAction = Mod.InvertZoningAction;
 
             tempZoningQuery = new EntityQueryBuilder(Allocator.Temp)
                 .WithAll<TempZoning>()
@@ -75,7 +75,7 @@ namespace AdvancedRoadTools.Tools
 
         protected override void OnGameLoadingComplete(Purpose purpose, GameMode mode)
         {
-            AdvancedRoadToolsMod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
+            Mod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
             base.OnGameLoadingComplete(purpose, mode);
 
             m_ToolSystem.tools.Remove(this);
@@ -85,10 +85,10 @@ namespace AdvancedRoadTools.Tools
         /// <inheritdoc/>
         protected override void OnStartRunning()
         {
-            AdvancedRoadToolsMod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
+            Mod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
             base.OnStartRunning();
-            applyAction.enabled = true;
-            invertZoningAction.enabled = true;
+            applyAction.shouldBeEnabled = true;
+            invertZoningAction.shouldBeEnabled = true;
             requireZones = true;
             requireNet = Layer.Road;
             allowUnderground = true;
@@ -97,10 +97,10 @@ namespace AdvancedRoadTools.Tools
         ///cleans up actions or whatever else you want to happen when your tool becomes inactive.
         protected override void OnStopRunning()
         {
-            AdvancedRoadToolsMod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
+            Mod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
             base.OnStartRunning();
-            applyAction.enabled = false;
-            invertZoningAction.enabled = false;
+            applyAction.shouldBeEnabled = false;
+            invertZoningAction.shouldBeEnabled = false;
             requireZones = false;
             requireNet = Layer.None;
             allowUnderground = false;
@@ -277,7 +277,7 @@ namespace AdvancedRoadTools.Tools
             if (prefab.name != toolID)
                 return false;
 
-            AdvancedRoadToolsMod.log.Debug($"{toolID}:Selected");
+            Mod.log.Debug($"{toolID}:Selected");
             toolPrefab = prefab;
             return true;
         }
@@ -362,7 +362,7 @@ namespace AdvancedRoadTools.Tools
 
             public void Execute()
             {
-                AdvancedRoadToolsMod.log.Debug($"[{nameof(SetAdvancedRoadJob)}.Execute()]");
+                Mod.log.Debug($"[{nameof(SetAdvancedRoadJob)}.Execute()]");
 
                 foreach (var entity in Entities)
                 {

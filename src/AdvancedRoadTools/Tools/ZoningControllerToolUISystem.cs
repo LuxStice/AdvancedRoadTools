@@ -52,16 +52,16 @@ namespace AdvancedRoadTools.Tools
         {
             base.OnCreate();
 
-            AddBinding(toolZoningMode = new ValueBinding<int>(AdvancedRoadToolsMod.ModID, "ToolZoningMode", (int)ZoningMode.Both));
-            AddBinding(roadZoningMode = new ValueBinding<int>(AdvancedRoadToolsMod.ModID, "RoadZoningMode", (int)ZoningMode.Both));
-            AddBinding(isRoadPrefab = new ValueBinding<bool>(AdvancedRoadToolsMod.ModID, "IsRoadPrefab", false));
+            AddBinding(toolZoningMode = new ValueBinding<int>(Mod.ModID, "ToolZoningMode", (int)ZoningMode.Both));
+            AddBinding(roadZoningMode = new ValueBinding<int>(Mod.ModID, "RoadZoningMode", (int)ZoningMode.Both));
+            AddBinding(isRoadPrefab = new ValueBinding<bool>(Mod.ModID, "IsRoadPrefab", false));
 
 
-            AddBinding(new TriggerBinding<int>(AdvancedRoadToolsMod.ModID, "ChangeRoadZoningMode", ChangeRoadZoningMode));
-            AddBinding(new TriggerBinding<int>(AdvancedRoadToolsMod.ModID, "ChangeToolZoningMode", ChangeToolZoningMode));
-            AddBinding(new TriggerBinding(AdvancedRoadToolsMod.ModID, "FlipToolBothMode", FlipToolBothMode));
-            AddBinding(new TriggerBinding(AdvancedRoadToolsMod.ModID, "FlipRoadBothMode", FlipRoadBothMode));
-            AddBinding(new TriggerBinding(AdvancedRoadToolsMod.ModID, "ToggleZoneControllerTool", ToggleTool));
+            AddBinding(new TriggerBinding<int>(Mod.ModID, "ChangeRoadZoningMode", ChangeRoadZoningMode));
+            AddBinding(new TriggerBinding<int>(Mod.ModID, "ChangeToolZoningMode", ChangeToolZoningMode));
+            AddBinding(new TriggerBinding(Mod.ModID, "FlipToolBothMode", FlipToolBothMode));
+            AddBinding(new TriggerBinding(Mod.ModID, "FlipRoadBothMode", FlipRoadBothMode));
+            AddBinding(new TriggerBinding(Mod.ModID, "ToggleZoneControllerTool", ToggleTool));
         
             mainToolSystem = World.GetOrCreateSystemManaged<ToolSystem>();
             mainToolSystem.EventPrefabChanged += EventPrefabChanged;

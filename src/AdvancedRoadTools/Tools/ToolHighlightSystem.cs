@@ -104,13 +104,13 @@ namespace AdvancedRoadTools.Tools
             public void Execute(int index)
             {
                 var entity = Entities[index];
-                if (entity == Entity.Null) AdvancedRoadToolsMod.log.Error($"Trying to set highlights on a null entity!");
+                if (entity == Entity.Null) Mod.log.Error($"Trying to set highlights on a null entity!");
 
                 if (!HighlightedLookup.HasComponent(entity))
                 {
                     ECB.AddComponent<Highlighted>(index, entity);
                     ECB.AddComponent<BatchesUpdated>(index, entity);
-                    AdvancedRoadToolsMod.log.Debug($"\tHighlighted {entity}");
+                    Mod.log.Debug($"\tHighlighted {entity}");
                 }
                 
                 if (EdgeLookup.TryGetComponent(entity, out var edge))
@@ -131,13 +131,13 @@ namespace AdvancedRoadTools.Tools
             public void Execute(int index)
             {
                 var entity = Entities[index];
-                if (entity == Entity.Null) AdvancedRoadToolsMod.log.Error($"Trying to set highlights on a null entity!");
+                if (entity == Entity.Null) Mod.log.Error($"Trying to set highlights on a null entity!");
 
                 if (HighlightedLookup.HasComponent(entity))
                 {
                     ECB.RemoveComponent<Highlighted>(index, entity);
                     ECB.AddComponent<BatchesUpdated>(index, entity);
-                    AdvancedRoadToolsMod.log.Debug($"\tUnhighlighted {entity}");
+                    Mod.log.Debug($"\tUnhighlighted {entity}");
                 }
                 
                 if (EdgeLookup.TryGetComponent(entity, out var edge))
