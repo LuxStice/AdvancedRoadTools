@@ -9,6 +9,24 @@
         <PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
 
         <CustomManagedPath>D:\Games\Cities - Skylines II\Cities2_Data\Managed</CustomManagedPath>
+
+        <Version>1.0.5</Version>
+
+        <Title>Advanced Road Tools</Title>
+
+        <Authors>luxstice</Authors>
+
+        <IsPackable>false</IsPackable>
+
+        <PackageProjectUrl>https://github.com/LuxStice/AdvancedRoadTools/tree/master</PackageProjectUrl>
+
+        <PackageLicenseUrl>https://github.com/LuxStice/AdvancedRoadTools/blob/master/LICENSE</PackageLicenseUrl>
+
+        <AssemblyVersion>1.0.5</AssemblyVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\AdvancedRoadTools.xml</DocumentationFile>
     </PropertyGroup>
 
     <!--Imports must be after PropertyGroup block-->
@@ -54,6 +72,5 @@
         <Content Include="lang\**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-        <Folder Include="src\" />
     </ItemGroup>
 </Project>
