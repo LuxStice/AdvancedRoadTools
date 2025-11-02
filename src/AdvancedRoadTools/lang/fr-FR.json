@@ -1,6 +1,4 @@
 ﻿{
-  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Côté de zonage",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone des deux côtés.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone uniquement à gauche.",
-  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone uniquement à droite."
+  "Assets.NAME[Zone Controller Tool]": "Zone Controller",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Outil pour contrôler le comportement du zonage d'une route.\nChoisissez entre le zonage des deux côtés, seulement à gauche ou à droite, ou pas de zonage pour cette route.\nPar défaut, le clic droit inverse la configuration du zonage."
 }
