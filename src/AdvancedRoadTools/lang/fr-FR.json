@@ -1,4 +1,17 @@
 ﻿{
-  "Assets.NAME[Zone Controller Tool]": "Zone Controller",
-  "Assets.DESCRIPTION[Zone Controller Tool]": "Outil pour contrôler le comportement du zonage d'une route.\nChoisissez entre le zonage des deux côtés, seulement à gauche ou à droite, ou pas de zonage pour cette route.\nPar défaut, le clic droit inverse la configuration du zonage."
+  "Assets.NAME[Zone Controller Tool]": "Contrôleur de zonage",
+  "Assets.DESCRIPTION[Zone Controller Tool]": "Outil pour contrôler le comportement du zonage d'une route.\nChoisissez entre le zonage des deux côtés, seulement à gauche ou à droite, ou pas de zonage pour cette route.\nPar défaut, le clic droit inverse la configuration du zonage.",
+  "ToolOptions.SECTION[AdvancedRoadTools.Zone_Controller.SectionTitle]": "Côté de zonage",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeBothDescription]": "Zone des deux côtés.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeLeftDescription]": "Zone uniquement à gauche.",
+  "ToolOptions.TOOLTIP_DESCRIPTION[AdvancedRoadTools.Zone_Controller.ZoningModeRightDescription]": "Zone uniquement à droite.",
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Main]": "Général",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Zone Controller Tool]": "Options de l'outil de contrôle du zonage",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Empêcher la suppression des cellules zonées",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveZonedCells]": "Empêche les cellules zonées d'être remplacées pendant la prévisualisation et la phase de définition de l'outil de contrôle de zone.\nRéglez ceci sur vrai si vous avez des problèmes avec la perte de votre configuration de zonage lors de l'utilisation de l'outil.\nPar défaut : Vrai",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Empêcher la suppression des cellules occupées",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.RemoveOccupiedCells]": "Empêche les cellules occupées d'être remplacées lors de l'aperçu et de la phase de définition de l'outil de contrôle de zone.\nRéglez ceci sur vrai si vous avez des problèmes avec le fait que les bâtiments deviennent vacants et/ou abandonnés lors de l'utilisation de l'outil.\nPar défaut : Vrai",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Inverser le bouton de la souris pour zoner",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.AdvancedRoadToolsMod.Setting.InvertZoning]": "Inverse la configuration de zonage actuelle avec une action de la souris."
 }
