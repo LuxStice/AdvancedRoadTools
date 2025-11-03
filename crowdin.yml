@@ -1,3 +1,3 @@
 files:
   - source: /crowdin/**.json
-    translation: /src/AdvancedRoadTools/lang/%locale%.%file_extension%
+    translation: /crowdin/temp/%locale%/%file_name%.json
