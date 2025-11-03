@@ -1,4 +1,19 @@
 ﻿{
-  "Assets.NAME[Zone Controller Tool]": "Zone Controller",
-  "Assets.DESCRIPTION[Zone Controller Tool]": "Herramienta para controlar como se comporta la zonificación del camino.\nElige entre zonificar ambos lados, solo a la izquierda o derecha o no zonificar el camino.\nPor defecto el clic derecho invierte la configuración de zonificación."
+  "Options.SECTION[AdvancedRoadTools.AdvancedRoadTools.Mod]": "Advanced Road Tools",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.MainTab]": "Principal",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.ZoneControllerToolGroup]": "Herramienta de control de zonificación",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Evitar que las celdas zonificadas sean removidas",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveZonedCells]": "Previene que las celdas ya zonificadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de pérdida de zonificación al usar la herramienta.\nPor defecto: Verdadero",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Evitar que las celdas ocupadas sean removidas",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.RemoveOccupiedCells]": "Previene que las celdas ya ocupadas sean sobreescritas durante la previsualización y fase de aplicación de la herramienta de control de zonificación.\nEstablecer en verdadero, si tienes problemas de edificios condenados y/o abandonados al utilizar la herramienta.\nPor defecto: Verdadero",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoningBinding]": "Invertir lados de zonificación",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod/InvertZoningBinding/binding]": "Invertir lados de zonificación",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.InvertZoningBinding]": "Invierte la configuración actual de zonificación con una acción del ratón.",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.KeybindingsTab]": "Asignaciones",
+  "Options.TAB[AdvancedRoadTools.AdvancedRoadTools.Mod.AboutTab]": "Acerca de",
+  "Options.GROUP[AdvancedRoadTools.AdvancedRoadTools.Mod.ModInfoGroup]": "Información del Mod",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.ModName]": "Nombre del Mod",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.ModName]": "Nombre del mod",
+  "Options.OPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.Version]": "Versión del Mod",
+  "Options.OPTION_DESCRIPTION[AdvancedRoadTools.AdvancedRoadTools.Mod.Setting.Version]": "Versión del mod instalada"
 }
