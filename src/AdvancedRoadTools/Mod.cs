@@ -64,6 +64,7 @@ namespace AdvancedRoadTools
         /// </summary>
         public void OnLoad(UpdateSystem updateSystem)
         {
+            log.Info($"Version {Version}");
             log.Debug($"{nameof(Mod)}.{MethodBase.GetCurrentMethod()?.Name}");
 
             if (!GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
@@ -142,6 +143,7 @@ namespace AdvancedRoadTools
                 return;
             }
 
+            int localeCount = 0;
             foreach (var path in Directory.GetFiles(langPath, "*.json"))
             {
                 var localeID = Path.GetFileNameWithoutExtension(path);
@@ -151,9 +153,9 @@ namespace AdvancedRoadTools
                 locale.Entries = dict;
 
                 GameManager.instance.localizationManager.AddSource(localeID, locale);
-                log.Info($"\tLoaded locale {localeID}.json");
+                localeCount++;
             }
-            log.Info($"Finished loading locales");
+            log.Info($"Finished loading {localeCount} locales");
         }
 
         private void CreateTools(Purpose purpose, GameMode mode)
