@@ -1,3 +1,13 @@
-files:
-  - source: /crowdin/**.json
-    translation: /src/AdvancedRoadTools/lang/%locale%.%file_extension%
+"project_id": "764611"
+"api_token": "dc23bf10d2e2606471d87fafd8207c76812b88519ba663d569524bd8966502da2470949b1e1e08f1"
+"base_path": "./crowdin"
+"base_url": "https://api.crowdin.com"
+
+"preserve_hierarchy": true
+
+"files": [
+  {
+    "source" : "*.json",
+    "translation" : "temp/%locale%/%file_name%.json"
+  }
+]

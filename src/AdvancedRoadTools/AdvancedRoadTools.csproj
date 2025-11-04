@@ -28,6 +28,10 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
       <DefineConstants>TRACE;EXPORT_LOCALIZATION</DefineConstants>
     </PropertyGroup>
+    <Target Name="CrowdinSync" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Release' ">
+        <Exec Command="crowdin download translations --no-progress" WorkingDirectory="$(SolutionDir)"/>
+        <Exec Command="powershell -ExecutionPolicy Bypass -NoProfile -File merge-locale.ps1" WorkingDirectory="$(SolutionDir)"/>
+    </Target>
 
     <!--Imports must be after PropertyGroup block-->
     <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props"/>
