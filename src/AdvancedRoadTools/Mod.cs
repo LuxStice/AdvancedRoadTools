@@ -46,7 +46,7 @@ namespace AdvancedRoadTools
         /// <summary>
         /// Mod's Name
         /// </summary>
-        public const string Name = "Advanced Road Tools";
+        public const string Name = ModAssemblyInfo.Title;
 
         /// <summary>
         /// Invert Zoning <see cref="ProxyAction"/> instance.
@@ -57,7 +57,7 @@ namespace AdvancedRoadTools
         /// <summary>
         /// Assembly version.
         /// </summary>
-        public static string Version => Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
+        public const string Version = ModAssemblyInfo.Version;
 
         /// <summary>
         /// On mod load by Colossal Framework.

@@ -1,6 +1,6 @@
 {
-  "id": "AdvancedRoadTools",
-  "author": "LuxStice",
-  "version": "1.0.0",
-  "dependencies": []
+    "id": "AdvancedRoadTools",
+    "author": "luxstice",
+    "version": "1.0.5",
+    "dependencies": []
 }

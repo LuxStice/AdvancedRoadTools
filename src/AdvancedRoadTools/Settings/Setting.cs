@@ -42,9 +42,11 @@ namespace AdvancedRoadTools
         [SettingsUISection(KeybindingsTab, ZoneControllerGroup)]
         public ProxyBinding InvertZoningBinding { get; set; }
 
-        [SettingsUISection(AboutTab, ModInfoGroup)] public string ModName => Mod.Name;
+        [SettingsUISection(AboutTab, ModInfoGroup)]
+        public string ModName => Mod.Name;
 
-        [SettingsUISection(AboutTab, ModInfoGroup)] public string Version => Mod.Version;
+        [SettingsUISection(AboutTab, ModInfoGroup)]
+        public string Version => Mod.Version;
 
         public override void SetDefaults()
         {
