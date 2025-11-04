@@ -2,31 +2,36 @@
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <TargetFramework>net472</TargetFramework>
-        <Configurations>Debug;Release</Configurations>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>9.0</LangVersion>
+        <Configurations>Debug;QA;Release</Configurations>
 
         <!--The file where mod information which is required for publishing mod on PDX mods are stored-->
         <PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
 
-        <CustomManagedPath>D:\Games\Cities - Skylines II\Cities2_Data\Managed</CustomManagedPath>
+        <CustomManagedPath>$([System.Environment]::GetEnvironmentVariable('CSII_MANAGEDPATH', 'EnvironmentVariableTarget.User'))</CustomManagedPath>
 
         <Version>1.0.5</Version>
 
         <Title>Advanced Road Tools</Title>
 
+        <Description>Advanced Road Tools (ART) is a mod for Cities:Skyline 2 that provides a variety of tools to control roads and their behaviour.</Description>
+
         <Authors>luxstice</Authors>
 
-        <IsPackable>false</IsPackable>
+        <IsPackable>true</IsPackable>
 
         <PackageProjectUrl>https://github.com/LuxStice/AdvancedRoadTools/tree/master</PackageProjectUrl>
-
-        <PackageLicenseUrl>https://github.com/LuxStice/AdvancedRoadTools/blob/master/LICENSE</PackageLicenseUrl>
 
         <AssemblyVersion>1.0.5</AssemblyVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-      <DefineConstants>TRACE;EXPORT_LOCALIZATION</DefineConstants>
+        <DefineConstants>TRACE;EXPORT_LOCALIZATION</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
     <Target Name="CrowdinSync" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Release' ">
         <Exec Command="crowdin download translations --no-progress" WorkingDirectory="$(SolutionDir)"/>
@@ -36,6 +41,16 @@
     <!--Imports must be after PropertyGroup block-->
     <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props"/>
     <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.targets"/>
+    <Import Project="Properties\PublishConfiguration.csproj"/>
+    <Import Project="UI\mod.json.csproj"/>
+    <Import Project="ModAssemblyInfo.csproj"/>
+    <ItemGroup>
+        <None Include="$(ModPropsFile)" Link="Properties\Mod.props"/>
+        <None Include="$(ModTargetsFile)" Link="Properties\Mod.targets"/>
+        <None Include="Properties\PublishConfiguration.csproj"/>
+        <None Include="UI\mod.json.csproj"/>
+        <None Include="ModAssemblyInfo.csproj"/>
+    </ItemGroup>
 
     <Target Name="BuildUI" AfterTargets="AfterBuild">
         <Exec Command="npm run build" WorkingDirectory="$(ProjectDir)/UI"/>
@@ -64,11 +79,6 @@
         <Reference Update="System.Data">
             <Private>false</Private>
         </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
-        <None Include="$(ModPropsFile)" Link="Properties\Mod.props"/>
-        <None Include="$(ModTargetsFile)" Link="Properties\Mod.targets"/>
     </ItemGroup>
 
     <ItemGroup Label="L18n Everywhere compatiblity">
