@@ -24,11 +24,18 @@ namespace AdvancedRoadTools
         {
         }
 
+        // These are inversed since pre 1.0 version. Changing it will break translations so i'll hold on into it until really needed
+        /// <summary>
+        /// Prevent zoned cells from being removed. If disabled, <see cref="RemoveOccupiedCells"/> will be uninteractable as well.
+        /// </summary>
         [SettingsUISection(MainTab, ZoneControllerGroup)]
-        public bool RemoveZonedCells { get; set; } = true;
+        public bool RemoveZonedCells { get; set; } = false;
 
+        /// <summary>
+        /// Prevent occupied cells from being removed.
+        /// </summary>
         [SettingsUISection(MainTab, ZoneControllerGroup)]
-        //[SettingsUIDisableByCondition(typeof(Setting), nameof(IfRemoveZonedCells))]
+        [SettingsUIDisableByCondition(typeof(Setting), nameof(IfNotRemoveZonedCells))]
         public bool RemoveOccupiedCells { get; set; } = true;
 
         [SettingsUIMouseBinding(BindingMouse.Right, nameof(InvertZoningBinding))]
@@ -46,6 +53,6 @@ namespace AdvancedRoadTools
             InvertZoningBinding = new ProxyBinding { };
         }
 
-        private bool IfRemoveZonedCells() => !RemoveZonedCells;
+        private bool IfNotRemoveZonedCells() => !RemoveZonedCells;
     }
 }
