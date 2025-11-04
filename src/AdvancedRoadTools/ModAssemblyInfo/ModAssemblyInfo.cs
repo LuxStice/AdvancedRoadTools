@@ -10,7 +10,7 @@ namespace AdvancedRoadTools
     public class ModAssemblyInfo
     {
         public const string Name        = "AdvancedRoadTools";
-        public const string Version     = "1.0.5";
+        public const string Version     = "1.0.5.1";
         public const string Title       = "Advanced Road Tools";
         public const string Description = "Advanced Road Tools (ART) is a mod for Cities:Skyline 2 that provides a variety of tools to control roads and their behaviour.";
     }

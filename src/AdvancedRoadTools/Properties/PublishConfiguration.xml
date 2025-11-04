@@ -48,6 +48,7 @@ Translations
 - Italian (Furios)
 - Spanish (elGendo87)
 - Turkish (Eren_1000)
+- Russian (Selebi)
 
 Thank Yous
 ---
@@ -69,7 +70,7 @@ Thank Yous
     <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/advanced-road-tools.1728786/" />
 
     <!-- Version of the mod.  Copied from assembly Version. -->
-    <ModVersion Value="1.0.5" />
+    <ModVersion Value="1.0.5.1" />
 
     <!-- Recommended version of the base game to use the mod. -->
     <GameVersion Value="1.3.6" />

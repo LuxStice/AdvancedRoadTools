@@ -32,6 +32,7 @@ Translations
 - Italian (Furios)
 - Spanish (elGendo87)
 - Turkish (Eren_1000)
+- Russian (Selebi)
 
 Thank Yous
 ---
