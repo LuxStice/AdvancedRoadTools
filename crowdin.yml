@@ -1,5 +1,5 @@
 project_id: '764611'
-api_token: dc23bf10d2e2606471d87fafd8207c76812b88519ba663d569524bd8966502da2470949b1e1e08f1
+api_token: af96d3d1c8a2c8a05655ffa0b35c8ee55e6c2fb2cfc4a864ba3c6366a05b828b65753f389b079cf3
 base_path: ./crowdin
 base_url: 'https://api.crowdin.com'
 preserve_hierarchy: 1
