@@ -9,5 +9,4 @@ Localization
 - Polish (karmel9)
 - Portuguese (ti4go)
 - Serbian (spiderwik)
-- Spanish (elGendo87) 
-  localization updated.
+- Spanish (elGendo87)
