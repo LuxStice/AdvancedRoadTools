@@ -33,6 +33,7 @@ Translations
 - Spanish (elGendo87)
 - Turkish (Eren_1000)
 - Russian (Selebi)
+- Serbian (spiderwik)
 
 Thank Yous
 ---
