@@ -33,10 +33,10 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
-    <Target Name="CrowdinSync" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Release' ">
-        <Exec Command="crowdin download translations --no-progress" WorkingDirectory="$(SolutionDir)"/>
-        <Exec Command="powershell -ExecutionPolicy Bypass -NoProfile -File merge-locale.ps1" WorkingDirectory="$(SolutionDir)"/>
-    </Target>
+<!--    <Target Name="CrowdinSync" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Release' ">-->
+<!--        <Exec Command="crowdin download translations &#45;&#45;no-progress" WorkingDirectory="$(SolutionDir)"/>-->
+<!--        <Exec Command="powershell -ExecutionPolicy Bypass -NoProfile -File merge-locale.ps1" WorkingDirectory="$(SolutionDir)"/>-->
+<!--    </Target>-->
 
     <!--Imports must be after PropertyGroup block-->
     <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props"/>
