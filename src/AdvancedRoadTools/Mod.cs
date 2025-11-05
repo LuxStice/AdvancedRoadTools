@@ -129,6 +129,7 @@ namespace AdvancedRoadTools
             updateSystem.UpdateAt<SyncBlockSystem>(SystemUpdatePhase.Modification4B);
 
             updateSystem.UpdateAt<ZoningControllerToolUISystem>(SystemUpdatePhase.UIUpdate);
+            updateSystem.UpdateAt<RenderZoneControllerToolSystem>(SystemUpdatePhase.Rendering);
         }
 
         private void LoadAndAddLocalizationSources()

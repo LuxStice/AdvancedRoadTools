@@ -8,11 +8,13 @@ using Game.Net;
 using Game.Prefabs;
 using Game.Tools;
 using Game.Zones;
+using JetBrains.Annotations;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
+using PlacementFlags = Game.Net.PlacementFlags;
 
 namespace AdvancedRoadTools.Tools
 {
@@ -31,6 +33,7 @@ namespace AdvancedRoadTools.Tools
         private ComponentLookup<AdvancedRoad> advancedRoadLookup;
         private BufferLookup<SubBlock> subBlockLookup;
         private int2 Depths => zoningControllerToolUISystem.ToolDepths;
+        [PublicAPI]
         private ZoningMode ZoningMode => zoningControllerToolUISystem.ToolZoningMode;
         private EntityQuery tempZoningQuery;
         private EntityQuery soundbankQuery;
@@ -94,7 +97,7 @@ namespace AdvancedRoadTools.Tools
             allowUnderground = true;
         }
 
-        ///cleans up actions or whatever else you want to happen when your tool becomes inactive.
+        /// Cleans up actions or whatever else you want to happen when your tool becomes inactive.
         protected override void OnStopRunning()
         {
             Mod.log.Debug($"{nameof(ZoningControllerToolSystem)}.{System.Reflection.MethodBase.GetCurrentMethod()?.Name}");
@@ -208,9 +211,10 @@ namespace AdvancedRoadTools.Tools
                 Depths = Depths
             }.Schedule(selectedEntities.Length, 32, inputDeps);
 
-            var tempZoningEntities = tempZoningQuery.ToEntityArray(Allocator.TempJob);
-
             inputDeps = JobHandle.CombineDependencies(inputDeps, syncTempJob);
+
+
+            var tempZoningEntities = tempZoningQuery.ToEntityArray(Allocator.TempJob);;
 
             var cleanupTempJob = new CleanupTempJob
             {
@@ -253,10 +257,10 @@ namespace AdvancedRoadTools.Tools
             {
                 case true
                     when math.any(Depths != data.Depths)
-                    : //if it has advanced data and depths is different from current depths
+                    : //if it has advanced data and depths are different from current depths
                 case false
                     when math.any(Depths != new int2(6))
-                    : //if it doesn't have an advanced data and depths are game's defaults
+                    : //if it doesn't have advanced data and depths are the game's defaults
                     return true;
             }
 
